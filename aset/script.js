@@ -1,10 +1,9 @@
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".swiper-review", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
   slidesPerView: 2,
-  spaceBetween: 30,
-  freeMode: true,
+  spaceBetween: 36,
 
   // If we need pagination
   pagination: {
@@ -15,10 +14,5 @@ const swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
   },
 });
